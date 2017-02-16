@@ -22,9 +22,9 @@ _simple one service. unnessesary to add gateway for a single service, but we wil
 
 ### Basc App - SPA / MVVM connecting to REST service
 
-1. Start with a basic spring boot application using Gradle (yes gradle, need to learn this too!)
+1. [Start with a basic spring boot application](front-end-static.md) using Gradle (yes gradle, need to learn this too!)
 2. Serve static content within the spring boot starter, simple Spring MVC back end to serve static content
-3. Serve the angular starter kit, remembering that it is bower / nodejs based, not gradle
+3. Add the angular starter kit, remembering that it is bower / nodejs based, not gradle
 4. Add node js stuff to gradle, and add automatic debendency injuection of bower to index.html links!
 
 ### Data service (Spring Data REST to Mongo DB via JPA)
