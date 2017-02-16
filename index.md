@@ -16,7 +16,7 @@ This application will be my trail into these architectural concepts.
 
 ## Phase 1 - Basic Pattern
 
-![MS Phase 1](micro-learn/Microservice example p1.png)
+![MS Phase 1](Microservice example p1.png)
 
 ### Basc App - SPA / MVVM connecting to REST service
 
