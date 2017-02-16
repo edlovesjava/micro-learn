@@ -6,10 +6,10 @@ Creating an application using microservices architecture with Angular and Spring
 
 Well, I love learning stuff, and I like to learn 'out loud' so to speak, by writing tutorials or teaching others. 
 This helps me to think, rememver and pause to document what I did. And others may be helped too.
-I know Java with J2EE and Maven pretty well. I also Know Angular 1.5 intermedeately, and JavaScript and I are not
-close friends but we are getting thee. I have generally developed monolythic architectures (but highly distributed)
-on heavy weight containers, but recently have enjoyed development with the MEAN stack. Today, I believe it is 
-critical for architects to understand microservices, containers (eg. docker) and cloud infrastructures and platforms.
+I know Java with J2EE and Maven pretty well. I also Know [Angular 1.5](https://angularjs.org/) intermediately, and [JavaScript](https://en.wikipedia.org/wiki/ECMAScript) and I are not
+close friends but we are getting there. I have generally developed [monolithic architectures](http://microservices.io/patterns/monolithic.html) (but highly distributed)
+on heavy weight [J2EE containers](http://docs.oracle.com/cd/E17904_01/web.1111/e13706/overview.htm#WLPRG107), but recently have enjoyed development with the [MEAN stack](https://meanjs.org/) ([MongoDB](https://www.mongodb.com/), [Express](http://expressjs.com/), [Angular](https://angularjs.org/) and [Node](https://nodejs.org/en/)). Today, I believe it is 
+critical for architects to understand[ microservices architecture](http://microservices.io/patterns/microservices.html), containers (eg. docker) and cloud infrastructures and platforms.
 This application will be my trail into these architectural concepts. 
 
 # What I am doing
