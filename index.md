@@ -16,6 +16,8 @@ This application will be my trail into these architectural concepts.
 
 ## Phase 1 - Basic Pattern
 
+_simple one service. unnessesary to add gateway for a single service, but we will add more later!_
+
 ![MS Phase 1](Microservice example p1.png)
 
 ### Basc App - SPA / MVVM connecting to REST service
