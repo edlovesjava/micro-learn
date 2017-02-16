@@ -12,23 +12,27 @@ on heavy weight [J2EE containers](http://docs.oracle.com/cd/E17904_01/web.1111/e
 critical for architects to understand[ microservices architecture](http://microservices.io/patterns/microservices.html), containers (eg. docker) and cloud infrastructures and platforms.
 This application will be my trail into these architectural concepts. 
 
-# What I am doing
+# What I am doing?
 
-## Basc App - SPA / MVVM connecting to REST service
+## Phase 1 - Basic Pattern
+
+![MS Phase 1](micro-learn/Microservice example p1.png)
+
+### Basc App - SPA / MVVM connecting to REST service
 
 1. Start with a basic spring boot application using Gradle (yes gradle, need to learn this too!)
 2. Serve static content within the spring boot starter, simple Spring MVC back end to serve static content
 3. Serve the angular starter kit, remembering that it is bower / nodejs based, not gradle
 4. Add node js stuff to gradle, and add automatic debendency injuection of bower to index.html links!
 
-## Data service (Spring Data REST to Mongo DB via JPA)
+### Data service (Spring Data REST to Mongo DB via JPA)
 
 5. Create a multi project gradle to serve front end, back end and additional services
 6. Create a spring mvc back end, connecting on other port, allowing CORS to connect frontend (9000) to back end (8080)
 7. Create a spring data REST service accessing a MongoDB server, and dockerize 
 8. Run mongodb in its own container (yes, docker) and connect the service to the db resource, parameterize connect and configure
 
-## Adding a Gateway, prep for additional services
+### Adding a Gateway, prep for additional services
 
-6. Impleent [Gateway pattern](http://kubecloud.io/apigatewaypattern/) using [spring and Netflix Zuul and Spring Clud](http://kubecloud.io/apigatewaypattern/) 
+9. Impleent [Gateway pattern](http://kubecloud.io/apigatewaypattern/) using [spring and Netflix Zuul and Spring Clud](http://kubecloud.io/apigatewaypattern/) 
 
